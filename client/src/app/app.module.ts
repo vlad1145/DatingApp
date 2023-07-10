@@ -17,8 +17,8 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown'
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
-    //BsDropdownModule.forRoot()------------------------------now working vlad------
+    FormsModule,
+    BsDropdownModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
